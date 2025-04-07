@@ -118,17 +118,16 @@
 
   </section>
 
-  <!-- 🔥 NEW: Blog Section -->
-<section id="blog">
-  <h2>Blog</h2>
-  <ul>
-    <li>
-      <a href="/monsters/">🐲 Of Monsters and Metrics</a>
-      </a>
-    </li>
-    <!-- Add more blog posts here as you write them -->
-  </ul>
-</section>
+  <section id="blog">
+    <h2>Blog</h2>
+    <ul>
+      {% for post in site.posts %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
 
 
   <footer>
