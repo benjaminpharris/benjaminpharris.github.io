@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Of Monsters and Metrics: Transforming the Unalike"
-date: 2024-04-07
+date: 2025-04-07
 categories: [analytics, modeling]
 tags: [frameworks, uncertainty, causality, marketing]
 ---
