@@ -1,7 +1,8 @@
-title: Ben's Blog
+title: Ben's Coding Corner
 description: Thoughts on modeling, tools, and data weirdness
 theme: minima
 markdown: kramdown
 kramdown:
   math_engine: mathjax
 baseurl: ""
+permalink: /:title/
