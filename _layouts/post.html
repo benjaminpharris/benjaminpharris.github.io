@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="{{ '/assets/css/nordic.css' | relative_url }}">
+  
+  <!-- MathJax for rendering math -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  
+  <!-- Additional head tags if needed -->
+</head>
+<body>
+  <header>
+    <!-- Optionally include a header (logo/navigation) -->
+  </header>
+  
+  <main>
+    {{ content }}
+  </main>
+  
+  <footer>
+    <!-- Optionally include a footer -->
+  </footer>
+</body>
+</html>
