@@ -42,10 +42,13 @@ I’m a data scientist who blends statistics, finance, and bad humor. This is wh
     <li>
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
       <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
-      {% if post.excerpt %}
+
+      {# --- USE THIS LINE --- #}
+      {% if post.excerpt and post.excerpt != '' %}
         <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
       {% endif %}
+      {# --- END --- #}
+
     </li>
   {% endfor %}
 </ul>
-<p><a href="{{ '/blog/' | relative_url }}">View All Posts...</a></p> 
