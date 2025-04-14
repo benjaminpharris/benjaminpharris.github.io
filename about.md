@@ -1,37 +1,61 @@
 ---
-layout: page # Or 'default' if you don't create a specific 'page' layout
+layout: page
 title: About Me
 ---
 
-<div class="about-page">
+![Photo of {{ site.name }}]({{ '/assets/images/about-picture.jpg' | relative_url }}){: .about-profile-picture }
 
-  <img src="{{ '/assets/images/your-about-picture.jpg' | relative_url }}" alt="Photo of {{ site.name }}" class="about-profile-picture">
+# About Me
 
-  <h1>About Me</h1>
+Hi, I’m Ben — and the non-exhaustive list of self-identifiers includes:
 
-  <p>
-    Hi, I'm Benjamin Pharris. I'm a quantitative analyst, builder, and strategist based in [Your Location, e.g., Denver, CO]. 
-    I enjoy blending finance, data science, and creative coding to explore complex problems and build interesting things.
-  </p>
+- **Data scientist**
+- Finance bro (by education)
+- Car enthusiast (Papaya 2025, M440i)
+- Math enjoyer & LaTeX advocate
+- Wine drinker & AI optimist
+- Yoga do-er & strategic thinker
+- Closeted (or not so closeted) nerd
+- Bayesian modeling dabbler
+- Python programmer (by necessity)
+- R programmer (by preference)
+- Book reader, knowledge hoarder, probably overthinking something right now
 
-  <p>
-    This website serves as my personal space to share projects, write about topics that fascinate me (from market microstructure 
-    and statistical modeling to generative art), and document my learning journey. 
-  </p>
-  
-  <p>
-    My core interests include: [List a few key interests or skills, e.g., Financial Modeling, Bayesian Statistics, 
-    Python Development, Machine Learning, Data Visualization]. I'm always eager to learn new techniques and apply them 
-    to challenging datasets.
-  </p>
+This site is my home base for sharing projects, writing about things that fascinate me, and building public credibility — part portfolio, part lab notebook, part personal sandbox.
 
-  <h2>Get In Touch</h2>
+---
 
-  You can reach me via:
+## Credentials, Experience, and Other Justifications for Listening to Me
 
-  * **Email:** <a href="mailto:your.email@example.com">your.email@example.com</a>
-  * **LinkedIn:** <a href="https://www.linkedin.com/in/yourprofile/" target="_blank" rel="noopener noreferrer">Your LinkedIn Profile</a>
-  * **GitHub:** <a href="https://github.com/benjaminpharris" target="_blank" rel="noopener noreferrer">benjaminpharris</a>
-  * _[Optional: Add Twitter, etc.]_
+- **Masters in Finance & Risk Management**  
+- **Masters in Economics & Econometrics**  
+- **"Investment Analyst" at a Fortune 200 company**  
+   > *Misleading title — it's really half finance, half data science, with a marketing flavor*  
+- **Statistical researcher and consultant**, helping others wrangle their data and math into publishable form
+- **Recovering systems administrator** (yes, I still write bash scripts)  
 
-</div>
+---
+
+## What I Actually Do
+
+My work lives at the intersection of **data science, finance, and strategy**, where I use quantitative and computational methods to find structure in messy, intricate datasets.
+
+I specialize in:
+- **Causal inference**  
+- **Machine learning** (Random Forests, Gradient Boosting, Symbolic Regression, etc.)  
+- **Bayesian and frequentist statistical modeling**  
+- **Marketing measurement and MMM**  
+- Telling compelling stories from complex models
+
+In short: I like solving hard problems with data, and I try to stay on the steep part of the learning curve. Lately I’ve been reading [*Bayesian Data Analysis*](https://sites.stat.columbia.edu/gelman/book/) — it’s as good as everyone says.
+
+---
+
+## Get In Touch
+
+You can reach me via:
+
+- **Email:** [your.email@example.com](mailto:benjaminpharris97@gmail.com)  
+- **LinkedIn:** [linkedin.com/in/yourprofile](https://www.linkedin.com/in/bkpharris/)  
+- **GitHub:** [benjaminpharris](https://github.com/benjaminpharris)  
+<!-- Add Twitter, blog, newsletter, or obsidian vault link if you like -->
