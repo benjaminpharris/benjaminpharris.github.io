@@ -4,12 +4,12 @@ title: Home
 ---
 
 ## About Me
-I’m a quantitative analyst, builder, and strategist who blends finance, data science, and creative coding[cite: 16]. This is where I share some of the projects I build in Python — from statistical modeling to fractal explorers[cite: 16].
+I’m a data scientist  who blends finance, data science, and creative coding. This is where I share some of the projects I build in Python — from statistical modeling to fractal explorers.
 
-* 📈 Finance, modeling, and market structure [cite: 17]
-* 🧪 Experimentation and statistical inference [cite: 17]
-* 🧠 Human-centered insight through data [cite: 17]
-* 🎨 Visual & creative coding for fun [cite: 17]
+* 📈 Finance, modeling, and market structure
+* 🧪 Experimentation and statistical inference
+* 🧠 Human-centered insight through data
+* 🎨 Visual & creative coding for fun
 
 ---
 
@@ -44,9 +44,9 @@ I’m a quantitative analyst, builder, and strategist who blends finance, data s
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
       <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
       {% if post.excerpt %}
-        <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p> {# Show a short excerpt #}
+        <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
       {% endif %}
     </li>
   {% endfor %}
 </ul>
-<p><a href="{{ '/blog/' | relative_url }}">View All Posts...</a></p> {# Link to a potential blog index page #}
+<p><a href="{{ '/blog/' | relative_url }}">View All Posts...</a></p> 
