@@ -3,13 +3,12 @@ layout: home
 title: Home
 ---
 
-## About Me
-I’m a data scientist  who blends finance, data science, and creative coding. This is where I share some of the projects I build in Python — from statistical modeling to fractal explorers.
+## About Me (Briefly)
+I’m a data scientist who blends statistics, finance, and bad humor. This is where I share some of the projects I build in Python (and R) — from statistical modeling to fractal explorers.
 
 * 📈 Finance, modeling, and market structure
 * 🧪 Experimentation and statistical inference
 * 🧠 Human-centered insight through data
-* 🎨 Visual & creative coding for fun
 
 ---
 

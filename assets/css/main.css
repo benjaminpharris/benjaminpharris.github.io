@@ -121,7 +121,7 @@ th { background-color: #f7f7f7; font-weight: 600; }
   margin-top: 1rem;
 }
 .project-card {
-  background-color: #fff;
+  background-color: #31363F;
   border: 1px solid #eee;
   padding: 1.5rem;
   border-radius: 8px;
@@ -142,8 +142,8 @@ th { background-color: #f7f7f7; font-weight: 600; }
 }
 .post-list li:last-child { border-bottom: none; margin-bottom: 0; }
 .post-list h3 { margin-top: 0; margin-bottom: 0.3rem; font-size: 1.3rem; }
-.post-list h3 a { color: #123458; }
-.post-list h3 a:hover { color: #123458; }
+.post-list h3 a { color: #D4C9BE; }
+.post-list h3 a:hover { color: #F7374F; }
 .post-list .post-meta { color: #76ABAE; font-size: 0.85rem; margin-bottom: 0.5rem; }
 .post-list p { font-size: 0.95rem; color: #555; margin-bottom: 0; }
 
@@ -243,7 +243,7 @@ a:hover {
 
 .home .hero-section .subtitle {
   font-size: 1.2rem;
-  color: #555; /* Adjust color for visibility */
+  color: #D4C9BE; /* Adjust color for visibility */
   margin-bottom: 1.5rem;
 }
 
