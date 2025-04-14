@@ -1,9 +1,9 @@
 name: Benjamin Pharris # Or whatever name you prefer for the site header
 title: Ben's Coding Corner # Used in browser tab, can be overridden by page title
-description: Thoughts on modeling, tools, and data weirdness [cite: 21] # Used for SEO and potentially subtitle
-markdown: kramdown [cite: 21]
+description: Thoughts on modeling, tools, and data weirdness # Used for SEO and potentially subtitle
+markdown: kramdown
 kramdown:
-  math_engine: mathjax [cite: 21]
+  math_engine: mathjax
   input: GFM # Enable GitHub Flavored Markdown features like tables, strikethrough
   syntax_highlighter: rouge # Standard Jekyll highlighter
 
