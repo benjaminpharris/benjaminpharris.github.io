@@ -35,7 +35,7 @@ I’m a data scientist who blends statistics, finance, and bad humor. This is wh
 
 ---
 
-## Blog Posts
+## Blog
 
 <ul class="post-list">
   {% for post in site.posts limit: 5 %} 
