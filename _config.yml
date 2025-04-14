@@ -9,7 +9,7 @@ kramdown:
 
 baseurl: "" # Keep as "" if hosted at username.github.io, or "/repo-name" if hosted at username.github.io/repo-name
 permalink: /:title/ # [cite: 21] Or choose another like /blog/:year/:month/:day/:title/
-
+excerpt_separator: ``
 # Optional: Add default front matter values
 # defaults:
 #   - scope:

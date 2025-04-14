@@ -142,7 +142,7 @@ th { background-color: #f7f7f7; font-weight: 600; }
 }
 .post-list li:last-child { border-bottom: none; margin-bottom: 0; }
 .post-list h3 { margin-top: 0; margin-bottom: 0.3rem; font-size: 1.3rem; }
-.post-list h3 a { color: #D4C9BE; }
+.post-list h3 a { color: #00ADB5; }
 .post-list h3 a:hover { color: #F7374F; }
 .post-list .post-meta { color: #76ABAE; font-size: 0.85rem; margin-bottom: 0.5rem; }
 .post-list p { font-size: 0.95rem; color: #555; margin-bottom: 0; }
@@ -150,6 +150,7 @@ th { background-color: #f7f7f7; font-weight: 600; }
 /* Post Page Specific */
 .post-header { margin-bottom: 2rem; text-align: center; }
 .post-title { font-size: 2.5rem; margin-bottom: 0.5rem; }
+.post-subtitle { color: #FE4F2D; font-size: 1.2rem; margin-bottom: 0.5rem; }
 .post-meta { color: #76ABAE; font-size: 0.9rem; }
 .post-content { margin-top: 2rem; }
 .post-content h2 { margin-top: 2em; padding-bottom: 0.3em; border-bottom: 1px solid #eee; }
