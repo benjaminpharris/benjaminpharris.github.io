@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <div class="hero-section">
+    <h1>{{ site.name | default: "Benjamin Pharris" }}</h1>
+    <p class="subtitle">{{ site.description | default: "🔮 Pondering the Autocorrelation in the Orb" }}</p> [cite: 21]
+    <div class="construction-notice">🚧 <strong>Heads up:</strong> This site is still under construction. More content coming soon! [cite: 14]</div>
+  </div>
+
+  {{ content }} {# This injects the Markdown content from index.md #}
+
+</div>

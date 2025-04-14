@@ -1,8 +1,32 @@
-title: Ben's Coding Corner
-description: Thoughts on modeling, tools, and data weirdness
-theme: minima
-markdown: kramdown
+name: Benjamin Pharris # Or whatever name you prefer for the site header
+title: Ben's Coding Corner # Used in browser tab, can be overridden by page title
+description: Thoughts on modeling, tools, and data weirdness [cite: 21] # Used for SEO and potentially subtitle
+markdown: kramdown [cite: 21]
 kramdown:
-  math_engine: mathjax
-baseurl: ""
-permalink: /:title/
+  math_engine: mathjax [cite: 21]
+  input: GFM # Enable GitHub Flavored Markdown features like tables, strikethrough
+  syntax_highlighter: rouge # Standard Jekyll highlighter
+
+baseurl: "" # Keep as "" if hosted at username.github.io, or "/repo-name" if hosted at username.github.io/repo-name
+permalink: /:title/ # [cite: 21] Or choose another like /blog/:year/:month/:day/:title/
+
+# Optional: Add default front matter values
+# defaults:
+#   - scope:
+#       path: "" # an empty string here means all files in the project
+#       type: "posts" # could also be pages, etc.
+#     values:
+#       layout: "post"
+#       author: "Benjamin Pharris"
+
+# Exclude files from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE.txt
