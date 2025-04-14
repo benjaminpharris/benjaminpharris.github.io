@@ -153,8 +153,8 @@ th { background-color: #f7f7f7; font-weight: 600; }
 .post-subtitle { color: #FE4F2D; font-size: 2rem; margin-bottom: 0.5rem; }
 .post-meta { color: #76ABAE; font-size: 1rem; }
 .post-content { margin-top: 2rem; }
-.post-content h2 { margin-top: 3em; padding-bottom: 0.3em; border-bottom: 1px solid #213555; }
-.post-content h3 { margin-top: 1.8em; }
+.post-content h2 { margin-top: 2.5em; padding-bottom: 0.3em; border-bottom: 1px solid #213555; }
+.post-content h3 { margin-top: .5em; }
 
 
 /* ----- Add these styles to your existing main.css ----- */
@@ -175,7 +175,7 @@ th { background-color: #f7f7f7; font-weight: 600; }
     /* ... other heading styles ... */
   }
    h3, h4, h5, h6 {
-    color: var(--accent-color-2); 
+    color: var(--accent-color-1); 
     /* ... other heading styles ... */
   }
 }
