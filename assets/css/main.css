@@ -151,7 +151,7 @@ th { background-color: #f7f7f7; font-weight: 600; }
 .post-header { margin-bottom: 2rem; text-align: center; }
 .post-title { font-size: 3rem; margin-bottom: 0.5rem; }
 .post-subtitle { color: #FE4F2D; font-size: 2rem; margin-bottom: 0.5rem; }
-.post-meta { color: #76ABAE; font-size: 0.9rem; }
+.post-meta { color: #76ABAE; font-size: 1rem; }
 .post-content { margin-top: 2rem; }
 .post-content h2 { margin-top: 3em; padding-bottom: 0.3em; border-bottom: 1px solid #213555; }
 .post-content h3 { margin-top: 1.8em; }
@@ -170,7 +170,11 @@ th { background-color: #f7f7f7; font-weight: 600; }
   --card-bg: #393E46;
   --accent-color-1: #213555; /* Example Purple */
   --accent-color-2: #FE4F2D; /* Example Red */
-  h2, h3, h4, h5, h6 {
+  h2 {
+    color: var(--accent-color-2); 
+    /* ... other heading styles ... */
+  }
+   h3, h4, h5, h6 {
     color: var(--accent-color-2); 
     /* ... other heading styles ... */
   }
@@ -182,8 +186,8 @@ body {
   background-color: var(--background-color);
   /* Rest of body styles... */
 }
-h1, h2, h3, h4, h5, h6 {
-  color: var(--heading-color);
+h3, h4, h5, h6 {
+  color: var(--accent-color-1);
   /* Rest of heading styles... */
 }
 a {
