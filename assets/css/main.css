@@ -121,8 +121,8 @@ th { background-color: #f7f7f7; font-weight: 600; }
   margin-top: 1rem;
 }
 .project-card {
-  background-color: #31363F;
-  border: 1px solid #eee;
+  background-color: #D4C9BE;
+  border: 1px solid #FE4F2D;
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
@@ -160,15 +160,19 @@ th { background-color: #f7f7f7; font-weight: 600; }
 
 /* Color Variables (Optional, but helpful for consistency) */
 :root {
-  --primary-color: #57B4BA; /* Default Blue */
+  --primary-color: #00ADB5; /* Default Blue */
   --primary-hover: #FE4F2D;
-  --text-color: #EEEEEE;
-  --heading-color: #57B4BA;
-  --background-color: #222831;
+  --text-color: #222831;
+  --heading-color: #00ADB5;
+  --background-color: #EEEEEE;
   --light-gray: #eee;
-  --card-bg: #123458;
-  --accent-color-1: #EEEEEE; /* Example Purple */
-  --accent-color-2: #76ABAE; /* Example Red */
+  --card-bg: #393E46;
+  --accent-color-1: #393E46; /* Example Purple */
+  --accent-color-2: #FE4F2D; /* Example Red */
+  h2, h3, h4, h5, h6 {
+    color: var(--accent-color-2); 
+    /* ... other heading styles ... */
+  }
 }
 
 /* Update base styles to use variables (Optional) */
