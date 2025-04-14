@@ -153,7 +153,7 @@ th { background-color: #f7f7f7; font-weight: 600; }
 .post-subtitle { color: #FE4F2D; font-size: 2rem; margin-bottom: 0.5rem; }
 .post-meta { color: #76ABAE; font-size: 1.2rem; }
 .post-content { margin-top: 2rem; }
-.post-content h2 { margin-top: 2.5em; padding-bottom: 0.3em; border-bottom: 1px solid #213555; }
+.post-content h2 { margin-top: 2.5em; padding-bottom: 0.3em; border-bottom: 1px solid #00ADB5; }
 .post-content h3 { margin-top: .5em; }
 
 
@@ -203,6 +203,14 @@ a:hover {
   /* Rest of hover styles... */
 }
 
+em { /* Targets italic text */
+  color: #00ADB5; /* Example: A steel blue color. CHANGE THIS! */
+  /* font-style: italic; is usually the default */
+}
+strong { /* Targets bold text */
+  color: #FE4F2D; /* Example: A reddish color. CHANGE THIS! */
+  /* font-weight: bold; is usually the default */
+}
 /* Styling for Header - adding a subtle accent */
 .site-header {
   /* border-bottom: 1px solid var(--light-gray); */ /* Original */
