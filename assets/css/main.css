@@ -154,3 +154,146 @@ th { background-color: #f7f7f7; font-weight: 600; }
 .post-content { margin-top: 2rem; }
 .post-content h2 { margin-top: 2em; padding-bottom: 0.3em; border-bottom: 1px solid #eee; }
 .post-content h3 { margin-top: 1.8em; }
+
+
+/* ----- Add these styles to your existing main.css ----- */
+
+/* Color Variables (Optional, but helpful for consistency) */
+:root {
+  --primary-color: #007bff; /* Default Blue */
+  --primary-hover: #0056b3;
+  --text-color: #333;
+  --heading-color: #111;
+  --background-color: #fdfdfd;
+  --light-gray: #eee;
+  --card-bg: #fff;
+  --accent-color-1: #6f42c1; /* Example Purple */
+  --accent-color-2: #d9534f; /* Example Red */
+}
+
+/* Update base styles to use variables (Optional) */
+body {
+  color: var(--text-color);
+  background-color: var(--background-color);
+  /* Rest of body styles... */
+}
+h1, h2, h3, h4, h5, h6 {
+  color: var(--heading-color);
+  /* Rest of heading styles... */
+}
+a {
+  color: var(--primary-color);
+  /* Rest of link styles... */
+}
+a:hover {
+  color: var(--primary-hover);
+  /* Rest of hover styles... */
+}
+
+/* Styling for Header - adding a subtle accent */
+.site-header {
+  /* border-bottom: 1px solid var(--light-gray); */ /* Original */
+  border-bottom: 2px solid var(--primary-color); /* Accent border */
+  /* Rest of header styles... */
+}
+
+/* Homepage Hero Section Enhancements */
+.home .hero-section {
+  position: relative; /* Needed for absolute positioning of banner */
+  text-align: center;
+  padding: 0; /* Remove padding to let banner fill */
+  margin-bottom: 3rem; /* Increased bottom margin */
+  background-color: transparent; /* Remove default bg */
+  border-radius: 0; /* Remove rounding if banner is full width */
+  overflow: hidden; /* Keep banner rounding if applied below */
+}
+
+.home .hero-banner {
+  height: 250px; /* Adjust height as needed */
+  background-color: #e9ecef; /* Fallback color */
+  /* --- Option 1: Background Image --- */
+   background-image: url('../images/banner-image.jpg'); /* Adjust path */
+   background-size: cover;
+   background-position: center center;
+  /* --- Option 2: Gradient --- */
+  /* background: linear-gradient(to right, var(--primary-color), var(--accent-color-1)); */
+  border-radius: 8px; /* Optional rounding */
+}
+
+.home .hero-headshot {
+  width: 150px; /* Adjust size */
+  height: 150px;
+  border-radius: 50%; /* Make it circular */
+  border: 5px solid var(--background-color); /* Creates a border effect */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  margin-top: -75px; /* Pulls the image up halfway over the banner bottom */
+  position: relative; /* Ensures it's above the banner content flow */
+  z-index: 10;
+  background-color: var(--background-color); /* Ensure no transparency issues */
+  display: block; /* Needed for margin auto centering */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home .hero-section h1 {
+  margin-top: 1rem; /* Space above H1 after headshot */
+  font-size: 2.5rem;
+  color: var(--heading-color); /* Ensure text is visible over potential banner */
+}
+
+.home .hero-section .subtitle {
+  font-size: 1.2rem;
+  color: #555; /* Adjust color for visibility */
+  margin-bottom: 1.5rem;
+}
+
+/* Project Card Accent */
+.project-card {
+  border-left: 4px solid var(--primary-color); /* Accent border */
+  /* Rest of project card styles... */
+}
+
+/* --- End of added styles --- */
+
+/* ----- Add these styles to your existing main.css ----- */
+
+/* About Page Specific Styles */
+.about-page {
+  padding-top: 1rem; /* Add some space at the top */
+}
+
+.about-profile-picture {
+  display: block;
+  float: right; /* Float image to the right */
+  width: 200px; /* Adjust size */
+  height: auto;
+  border-radius: 8px; /* Slightly rounded corners */
+  margin-left: 2em; /* Space to the left of the image */
+  margin-bottom: 1em; /* Space below the image */
+  border: 1px solid var(--light-gray);
+}
+
+.about-page h1 {
+  margin-top: 0; /* Adjust heading margin if needed due to float */
+}
+
+/* Clear float after the main content if needed */
+.about-page::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Adjust styles for smaller screens where float might look odd */
+@media screen and (max-width: 600px) {
+  .about-profile-picture {
+    float: none; /* Don't float on small screens */
+    display: block;
+    margin-left: auto; /* Center the image */
+    margin-right: auto;
+    margin-bottom: 1.5em;
+    max-width: 70%; /* Make it responsive */
+  }
+}
+
+/* --- End of added styles --- */

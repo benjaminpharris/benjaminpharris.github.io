@@ -20,7 +20,7 @@ I’m a quantitative analyst, builder, and strategist who blends finance, data s
     <h3>🌀 Mandelbrot Explorer</h3>
     <p>A fully interactive fractal generator built in Streamlit with real-time parameter controls.</p>
     <p>
-      <a href="https://benjaminpharrisappio-zkmtudj8gmzptl39vwndpp.streamlit.app/" target="_blank">Live Demo</a> | <a href="https://github.com/benjaminpharris/benjaminpharris.github.io/tree/main/mandlebrot-app" target="_blank">Source Code</a> [cite: 18]
+      <a href="https://benjaminpharrisappio-zkmtudj8gmzptl39vwndpp.streamlit.app/" target="_blank">Live Demo</a> | <a href="https://github.com/benjaminpharris/benjaminpharris.github.io/tree/main/mandlebrot-app" target="_blank">Source Code</a>
     </p>
   </div>
 
@@ -28,7 +28,7 @@ I’m a quantitative analyst, builder, and strategist who blends finance, data s
     <h3>📈 Marketing Mix Model</h3>
     <p>A real-world media ROI model using adstock, Bayesian priors, and random forest estimation.</p>
     <p>
-      <a href="#" target="_blank">Demo Coming Soon</a> | <a href="https://github.com/benjaminpharris/mmm-model" target="_blank">Source Code</a> [cite: 19]
+      <a href="#" target="_blank">Demo Coming Soon</a> | <a href="https://github.com/benjaminpharris/mmm-model" target="_blank">Source Code</a> 
     </p>
   </div>
 
@@ -39,7 +39,7 @@ I’m a quantitative analyst, builder, and strategist who blends finance, data s
 ## Blog Posts
 
 <ul class="post-list">
-  {% for post in site.posts limit: 5 %} {# Limit to recent 5 posts, adjust as needed #}
+  {% for post in site.posts limit: 5 %} 
     <li>
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
       <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>
