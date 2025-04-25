@@ -11,7 +11,8 @@ title: About Me
 
 - **Data scientist**, because it's the easiest shorthand
 - Finance-fluent, with a bias toward rigor and realism
-- Car guy (Papaya 2025, M440i, daily smirk)
+- Physics fiend (what *is* a spinor?)
+- Casual car guy (Papaya 2025, M440i, daily smirk)
 - Data deliberator and structured thinker (in matrix, dataframe, database, or spreadsheet)
 - Math enjoyer, LaTeX loyalist, and fan of clean derivations
 - Wine drinker, caffeine-fiend, and occasional techno philosopher (usually in conjunction with one of the former)
