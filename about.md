@@ -11,7 +11,8 @@ title: About Me
 
 - **Data scientist**, because it's the easiest shorthand
 - Finance-fluent, with a bias toward rigor and realism
-- Car guy (Papaya 2025, M440i, daily smirk)
+- Physics enthusiast (what *is* a spinor?)
+- Casual car guy (Papaya 2025, M440i, daily smirk)
 - Data deliberator and structured thinker (in matrix, dataframe, database, or spreadsheet)
 - Math enjoyer, LaTeX loyalist, and fan of clean derivations
 - Wine drinker, caffeine-fiend, and occasional techno philosopher (usually in conjunction with one of the former)
@@ -32,7 +33,7 @@ title: About Me
 - **Masters in Finance & Risk Management**  - expert in ratios, reporting, valuation, and allocation.
 - **Masters in Economics & Econometrics**  -  causality, statistical proofs, assumption challenging, spirited critique.
 - **"Investment Analyst" at a Fortune 200 company**  
-   > *Misleading title — it's really half finance, half data science, with a marketing flavor*  
+    - *Misleading title — it's really half finance, half data science, with a marketing flavor*  
 - **Statistical researcher and consultant**, helping others wrangle their data and math into publishable form
 - **Recovering systems administrator** (yes, I still consider replacing Windows with Arch every 6 months)  
 
@@ -47,7 +48,7 @@ I specialize in:
 - **Causal inference**  
 - **Machine learning** (Random Forests, Gradient Boosting, Symbolic Regression, etc.)  
 - **Bayesian and frequentist statistical modeling**  
-- **Measuring real-world impact — from media to markets**  
+- **Measuring real-world impact, from media to markets**  
 - Telling compelling stories from complex models
 
 In short: I like solving hard problems with data, and I try to stay on the steep part of the learning curve. Lately I’ve been reading [*Bayesian Data Analysis*](https://sites.stat.columbia.edu/gelman/book/) — it’s as good as everyone says.

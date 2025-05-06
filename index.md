@@ -46,8 +46,6 @@ I’m a data scientist who blends statistics, finance, and bad humor. This is wh
       {% if post.excerpt and post.excerpt != '' %}
         <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
       {% endif %}
-      {# --- END --- #}
-
     </li>
   {% endfor %}
 </ul>
